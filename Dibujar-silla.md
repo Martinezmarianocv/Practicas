@@ -1,6 +1,6 @@
 # Ejercicio 2: Dibujar Silla.
-    
-    *a. Utilizando QDraw, escribir un programa, con su correspondiente documentación, que dibuje la silla que se muestra en la imagen. El cabezal se encuentra en la parte inferior de la pata delantera de la silla.*
+
+    a. Utilizando QDraw, escribir un programa, con su correspondiente documentación, que dibuje la silla que se muestra en la imagen. El cabezal se encuentra en la parte inferior de la pata delantera de la silla.
 
 programa {
     /* PROPÓSITO:Dibujar una silla de color negro. El cabezal inica en la parte inferior de la pata delantera de la silla y termina en la parte superior del respaldo de la silla.
