@@ -1,8 +1,9 @@
 # Ejercicio Batalla Naval.
 
 procedimiento EliminarBarcosDelOceano() {
-    /*PROPÓSITO: Retirar del juego tanto barcos chicos como grandes, colocando agua en su lugar. El cabezal inicia en la esquina inferior izquierda y termina en la esquina inferior derecha.
-    PRECONDICIÓN: Debe haber al menos 7 celdas hacia arriba y 7 hacia la derecha a partir del inicio del cabezal.*/
+    /* PROPÓSITO: Retirar del juego tanto barcos chicos como grandes, colocando agua en su lugar. El cabezal inicia en la esquina inferior izquierda y termina en la esquina inferior derecha.
+    PRECONDICIÓN: Debe haber al menos 7 celdas hacia arriba y 7 hacia la derecha a partir del inicio del cabezal.
+    */
 
             repetir 3 veces {
             RecorrerCaminoArribaBarcos()
@@ -17,8 +18,9 @@ procedimiento EliminarBarcosDelOceano() {
 }
 
 procedimento RecorrerCaminoArribaBarcos() {
-    */PROPÓSITO: Recorrer el camino eliminando los barcos chicos y grandes si es que hay alguno, para esto colocar agua en su lugar pintando de negro. Comineza en la celda actual.
-    PRECONDICIÓN: Se necesita al menos 7 celdas hacia arriba a partir de la celda actual.*/
+    */ PROPÓSITO: Recorrer el camino eliminando los barcos chicos y grandes si es que hay alguno, para esto colocar agua en su lugar pintando de negro. Comineza en la celda actual.
+    PRECONDICIÓN: Se necesita al menos 7 celdas hacia arriba a partir de la celda actual.
+    */
 
             repetir 7 veces {
             si (estaPintadaDeRojo? v estaPintadaDeVerde?) entonces {
@@ -35,16 +37,18 @@ procedimento RecorrerCaminoArribaBarcos() {
 }
 
 procedimiento MoverHaciaOtroCamino() {
-    /*PROPÓSITO: Mover el cabezal de un camino a otro. Inicia en la celda actual.
-    PRECONDICIÓN: Debe haber al menos 1 celda a la derecha a partir de la celda actual.*/
+    /* PROPÓSITO: Mover el cabezal de un camino a otro. Inicia en la celda actual.
+    PRECONDICIÓN: Debe haber al menos 1 celda a la derecha a partir de la celda actual.
+    */
 
             MoverDerecha
 
 }
 
 procedimento RecorrerCaminoArribaBarcos() {
-    */PROPÓSITO: Recorrer el camino eliminando los barcos si es que hay alguno, para esto colocar agua en su lugar pintando de negro. Comineza en la celda actual.
-    PRECONDICIÓN: Se necesita al menos 7 celdas hacia abajo a partir de la celda actual.*/
+    */ PROPÓSITO: Recorrer el camino eliminando los barcos si es que hay alguno, para esto colocar agua en su lugar pintando de negro. Comineza en la celda actual.
+    PRECONDICIÓN: Se necesita al menos 7 celdas hacia abajo a partir de la celda actual.
+    */
 
             repetir 7 veces {
                 si (estaPintadaDeRojo? v estaPintadaDeVerde?) entonces {
@@ -63,8 +67,9 @@ procedimento RecorrerCaminoArribaBarcos() {
 /--------------------------------------------------------------------------------------------/
 
 procedimiento MarcarOceano() {
-    /*PROPÓSITO: Despinta todas las celdas que representan agua. Inicia en la esquina inferior izquierda y termina en la esquina inferior derecha.
-    PRECONDICIÓN: Debe haber al menos 7 celdas hacia arriba y 7 hacia la derecha a partir del inicio del cabezal.*/
+    /* PROPÓSITO: Despinta todas las celdas que representan agua. Inicia en la esquina inferior izquierda y termina en la esquina inferior derecha.
+    PRECONDICIÓN: Debe haber al menos 7 celdas hacia arriba y 7 hacia la derecha a partir del inicio del cabezal.
+    */
 
             repetir 3 veces {
                 RecorrerCaminoArribaAgua()
@@ -79,8 +84,9 @@ procedimiento MarcarOceano() {
 }
 
 procedimento RecorrerCaminoArribaAgua() {
-    */PROPÓSITO: Recorrer el camino eliminando las celdas que representan agua. Comineza en la celda actual.
-    PRECONDICIÓN: Se necesita al menos 7 celdas hacia arriba a partir de la celda actual.*/
+    * /PROPÓSITO: Recorrer el camino eliminando las celdas que representan agua. Comineza en la celda actual.
+    PRECONDICIÓN: Se necesita al menos 7 celdas hacia arriba a partir de la celda actual.
+    */
 
             repetir 7 veces {
                 si (estaPintadaDeNegro?) entonces {
@@ -95,8 +101,9 @@ procedimento RecorrerCaminoArribaAgua() {
 }
 
 procedimento RecorrerCaminoAajoAgua() {
-    */PROPÓSITO: Recorrer el camino eliminando las celdas que representan agua. Comineza en la celda actual.
-    PRECONDICIÓN: Se necesita al menos 7 celdas hacia arriba a partir de la celda actual.*/
+    */ PROPÓSITO: Recorrer el camino eliminando las celdas que representan agua. Comineza en la celda actual.
+    PRECONDICIÓN: Se necesita al menos 7 celdas hacia arriba a partir de la celda actual.
+    */
 
             repetir 7 veces {
                 si (estaPintadaDeNegro?) entonces {
