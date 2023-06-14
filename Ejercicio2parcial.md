@@ -1,3 +1,5 @@
+# Parcial 1. Ejercicio 2.
+
 Un laboratorio nos ha solicitado automatizar el mantenimiento de los tubos de ensayo de su sala principal. Se sabe que la sala cuenta con 3 mesas con cubículos 1x1 donde se encuentran los tubos de ensayo. Hay un solo tubo por cubículo. Cada mesa cuenta con un total de 50 cunículos.
 Para esta tarea, contamos con la robot Labby que deberá mantener todas las mesas con tubos sanos en base a la siguiente representación de la información:
 - celdas vacías: representan los cubículos sin tubos.
